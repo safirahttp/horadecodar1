@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 4 </title>
+
+    <script>
+
+        ///Retângulo///
+        var retangulob = parseInt(prompt("Insira a base do retângulo:"));
+        var retanguloa = parseInt(prompt("Insira a altura do retângulo:"))
+        var resultado = retangulob * retanguloa
+        alert("O área do retângulo é " + resultado)
+
+        ///Quadrado///
+        var lado = parseInt(prompt("Insira o lado do quadrado:"))
+        var resultado = lado * lado;
+        alert("A área do quadrado é " + resultado)
+
+        ///Losango///
+        var diagmaior = parseInt(prompt("Insira a diagonal maior do losango:"));
+        var daigmenor = parseInt(prompt("Insira a diagonal menor do losango"));
+        var dois = "2";
+        var resultado = diagmaior * daigmenor / dois
+        alert("A área do losango é " + resultado)
+
+        ///Trapézio///
+        var basemaior = parseInt(prompt("Insira a base maior do trapézio:"));
+        var basemenor = parseInt(prompt("Insira a base menor do trapézio:"));
+        var h = parseInt(prompt("Insira a altura do trapézio:"));
+        var dois = "2";
+        var resultado = (basemaior + basemenor) * h / dois
+        alert("A área do trapézio é " + resultado)
+
+        ///Paralelograma///
+        var base = parseInt(prompt("Insira a base do paralelograma:"));
+        var altura = parseInt(prompt("Insira a altura do paralelograma:"));
+        var resultado = base * altura
+        alert("A área do paralelograma é " + resultado)
+
+        ///Triângulo///
+        var base = parseInt(prompt("Insira a base do triângulo:"));
+        var altura = parseInt(prompt("Insira a altura do triângulo:"));
+        var dois = "2";
+        var resultado = base * altura / dois
+        alert("A área do triângulo é " + resultado)
+
+        ///Círculo///
+        var pi = parseInt("3,14")
+        var rdois = parseInt(prompt("Insira o valor do raio do círculo:"));
+        var resultado = pi * rdois + "²";
+        alert("A área do círculo é " + resultado)
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
